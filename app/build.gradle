@@ -1,4 +1,4 @@
-plugins {
+ plugins {
     id 'com.android.application'
     id 'kotlin-android'
 }
@@ -7,7 +7,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.example.affirmations"
+        applicationId  "com.example.affirmations"
         minSdk 19
         targetSdk 31
         versionCode 1

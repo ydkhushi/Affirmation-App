@@ -13,7 +13,7 @@ import com.example.affirmations.model.Affirmation
 /**
  * Adapter for the [RecyclerView] in [MainActivity]. Displays [Affirmation] data object.
  */
-class ItemAdapter(
+class ItemAdapter (
     private val context: Context,
     private val dataset: List<Affirmation>
 ) : RecyclerView.Adapter<ItemAdapter.ItemViewHolder>() {
